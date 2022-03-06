@@ -209,7 +209,7 @@
                         "typeHandlerVersion": "1.9",
                         "autoUpgradeMinorVersion": false,
                         "settings": {
-                            "commandToExecute": "[concat(variables('customScriptDownload'),'; powershell -ExecutionPolicy Unrestricted -File ', variables('customScriptFolder'), '/', variables('customScriptUriScriptFileName'), ' -sourceFileUrl ', parameters('studentFilesUrl'), ' -destinationFolder ', parameters('studentFilesDestination'))]"
+                            "commandToExecute": "[concat(variables('customScriptDownload'),'; powershell -ExecutionPolicy Unrestricted -File ', variables('customScriptUriScriptFileName'), ' -sourceFileUrl ', parameters('studentFilesUrl'), ' -destinationFolder ', parameters('studentFilesDestination'))]"
                         },
                         "protectedSettings": {}
                     }
